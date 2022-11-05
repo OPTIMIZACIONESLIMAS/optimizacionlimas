@@ -20,6 +20,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 100;
+    
 }
 
 .navbar {
@@ -39,6 +40,14 @@ body {
 }
 
 .navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(19, 17, 17);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.Redes-Sociales{
     display: block;
     padding: 20px 20px;
     color: rgb(19, 17, 17);
@@ -70,6 +79,13 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     color: rgb(2, 2, 2);
+}
+.optimizacion {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -163,7 +179,7 @@ p {
 }
 
 .price {
-    background: url(img/costos.jpg) no-repeat center;
+    background: url(img/a.webp) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -175,6 +191,12 @@ p {
     background: #f8f1f1;
     padding-bottom: 0;
 }
+
+.antes {
+  padding: 0px;
+}
+
+ 
 
 
 @media (max-width: 768px) {
